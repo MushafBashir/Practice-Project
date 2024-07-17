@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+/*------------------------------------------------------HEADER---------------------------------------------------------*/
+.container{
+    width:100%;
+    height:200px;
+    background-color:#f05724;
+}
+header h1{
+    font-size:80px;
+    padding-top:60px;
+    color:#4a1607;
+    text-align: center;
+}
+.navbar{
+    background-color:#94250c;
+    width: 100%;
+    height: 50px;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-right:40px;
+}
+ul li{
+    display:inline-block;
+    line-height:50px;
+    margin:0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color:#4a1607;
+    padding:16px 16px;
+}
+ul li a:hover{
+    color:white;
+    background-color: #f05724;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------FOOTER--------------------------------------------------*/
+.three-columns{
+    display:flex;
+    background-color:#f05724;
+    height:150px;
+}
+.col-1{
+    margin-top:12px;
+}
+
+.col-1 a{
+    margin-top:8px;
+    text-decoration:none;
+    display:block;
+    color:white;
+}
+.col-2{
+    margin-top:12px;
+}
+.col-3{
+    margin-top:12px;
+}
+.col-3 a{
+    margin-top:8px;
+    text-decoration:none;
+    display:block;
+    color: white;
+}
+footer div{
+    padding-left:320px;
+}
+.col-2 button{
+    margin-top:4px;
+}
+.three-columns h3{
+    color:#4a1607;
+}
+.end-line{
+    height:40px;
+    background-color:#94250c;
+}
+.col-2 input{
+    width:200px;
+    height:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.col-2 button{
+    background:transparent;
+    border:solid 2px #4a1607;
+    padding:4px 8px;
+    border-radius:16px;
+    cursor:pointer;
+}
+.col-3 i{
+    margin-left:6px;
+}
+.end-line p{
+    text-align:center;
+    color:#4a1607;
+    padding-top:8px;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------Section-----------------------------------------------------*/
+h1{
+    text-align:center;
+    margin-top:4px;
+}
+.quote-area{
+    margin-top:20px;
+}
+.quote{
+    background:#94250c;
+    color:rgb(250, 242, 242);
+    border-bottom:4px solid white;
+    height:55px;
+    padding-left:12px;
+    padding-top:6px;
+}
+.quote h4{
+    margin-top:4px;
+    margin-bottom:2px;
+}
+main{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}

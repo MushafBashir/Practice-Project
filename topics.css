@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+/*-----------------------------------------------HEADER------------------------------------------------------*/
+.container{
+    width:100%;
+    height:200px;
+    background-color:#f05724;
+}
+header h1{
+    font-size:80px;
+    padding-top:60px;
+    color:#4a1607;
+    text-align: center;
+}
+.navbar{
+    background-color:#94250c;
+    width: 100%;
+    height: 50px;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-right:40px;
+}
+ul li{
+    display:inline-block;
+    line-height:50px;
+    margin:0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color:#4a1607;
+    padding:16px 16px;
+}
+ul li a:hover{
+    color:white;
+    background-color: #f05724;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+
+/*--------------------------------------------TOPICS SECTION------------------------------------------------*/
+main{
+padding-bottom:8px;    
+}
+.topics-section h1{
+   text-align:center;
+   margin-top:6px;
+}
+
+.topics-section-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   gap:4px;
+}
+.topic{
+    min-height:120px;
+    border:1px solid #94250c;
+    border-bottom:none;
+    padding-left:4px;
+}
+.topics-section-container{
+    margin:0px 10px;
+}
+.topic-title{
+    text-align:center;
+}
+.top-btn{
+    text-align:center;
+    background-color:#94250c; 
+}
+.top-btn button{
+    padding:3px 6px;  
+    margin:4px 0px;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------FOOTER--------------------------------------------------*/
+.three-columns{
+    display:flex;
+    background-color:#f05724;
+    height:150px;
+}
+.col-1{
+    margin-top:12px;
+}
+
+.col-1 a{
+    margin-top:8px;
+    text-decoration:none;
+    display:block;
+    color:white;
+}
+.col-2{
+    margin-top:12px;
+}
+.col-3{
+    margin-top:12px;
+}
+.col-3 a{
+    margin-top:8px;
+    text-decoration:none;
+    display:block;
+    color: white;
+}
+footer div{
+    padding-left:320px;
+}
+.col-2 button{
+    margin-top:4px;
+}
+.three-columns h3{
+    color:#4a1607;
+}
+.end-line{
+    height:40px;
+    background-color:#94250c;
+}
+.col-2 input{
+    width:200px;
+    height:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.col-2 button{
+    background:transparent;
+    border:solid 2px #4a1607;
+    padding:4px 8px;
+    border-radius:16px;
+    cursor:pointer;
+}
+.col-3 i{
+    margin-left:6px;
+}
+.end-line p{
+    text-align:center;
+    color:#4a1607;
+    padding-top:8px;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+
+/* ------------------------------------------Following are the media querries------------------------------ */
+@media screen and (max-width: 480px){
+    header h1{
+        font-size:60px;
+        padding-top:34px;
+    }
+    ul{
+        margin-right:4px;
+    }
+    ul li{
+        margin:0px;
+    }
+    ul li a{
+        padding:16px 6px;
+    }
+    footer div{
+        padding-left:40px;
+    }
+}
+
+@media screen and (max-width: 720px){
+   header h1{
+    font-size:60px;
+   }
+   ul li{
+    margin:0px;
+   }
+   ul li a{
+    padding:16px 12px;
+   }
+   footer div{
+    padding-left:160px;
+}
+}
